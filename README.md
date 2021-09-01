@@ -1,25 +1,25 @@
 # W-ambulance-
 
-In Terminal Run:
-`pip install twilio`
-`pip install Flask`
-`pip install requests`
+In Terminal Run:<br>
+`pip install twilio`<br>
+`pip install Flask`<br>
+`pip install requests`<br>
 
-For Twilio:
-> Click [here](www.twilio.com/referral/Njt8YO)
->> Login / Create Account using Email & Mobile number
->>> Click on: Develop -> Messaging -> Try it out -> Send a WhatsApp message
->>>> Send your activateion code (eg. join ....) to +14155238886 
+<br>For Twilio click [here](www.twilio.com/referral/Njt8YO)
+<br>
+> Login / Create Account using Email & Mobile number
+>> Click on: Develop -> Messaging -> Try it out -> Send a WhatsApp message
+>>> Send your activation code (eg. join ....) to +14155238886 
 
 
-For GEOAPI click [here](https://myprojects.geoapify.com/login)
+<br>For GEOAPI click [here](https://myprojects.geoapify.com/login)
 >Login using Google
 >>Create a `project`
 >>>Click on --> `Billing` & Select --> `Free Plans`
 >>>>Click on --> `Api Keys` & Copy --> `API KEYS`
 >>>>>Change that API KEY with `_______YOUR API KEY_______` ( `Line: 40` in `main.py`file )
 
-Download `ngrok` from [here](https://ngrok.com/download)
+<br>Download `ngrok` from [here](https://ngrok.com/download)<br>
 >Unzip the file
 >>open `terminal` from `Downloads` or where you have saved that file
 >>>paste `./ngrok http 5000` inside your terminal & press enter
