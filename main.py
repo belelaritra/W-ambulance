@@ -74,6 +74,9 @@ def mybot():
         if 'hi' in incoming_msg:
             msg.body("Hi! 👋 \nI\'m *W-Ambulance* 🚑 \nA Wapp-Bot 🤖 developed by Team : *LTFT*")
             responded = True
+        elif 'Hii' in incoming_msg:
+            msg.body("Hi! 👋 \nI\'m *W-Ambulance* 🚑 \nA Wapp-Bot 🤖 developed by Team : *LTFT*")
+            responded = True
 
         if 'sos' in incoming_msg:
             previouswappmsg = 'sos'
