@@ -101,12 +101,12 @@ def mybot():
             print(hospital_latitude)
             print(hospital_longitude)
             # From CSV file
-            Ambulancephoneno = "6290960905"
-            Ambulancename = "AMBULANCE TEST"
-            Ambulancelatitude = "22.59374327026721"
-            Ambulancelongitude = "88.32434306693492"
-            Ambulanceregno = "WB12A1234"
-            Ambulancezipcode = "711101"
+            Ambulancephoneno = ""
+            Ambulancename = ""
+            Ambulancelatitude = ""
+            Ambulancelongitude = ""
+            Ambulanceregno = ""
+            Ambulancezipcode = ""
 
             # Distance Matrix API
             ambulance_address, patient_address, a2pdistance, a2pduration = googleapi.distance2point(
@@ -139,15 +139,15 @@ def mybot():
             sd.sendmessage(Ambulancephoneno, ambulancemessage)
             sd.sendmsglocation(Ambulancephoneno,"Location of Patient", latitude, longitude)
 
-            Nearby_Police_Hospital_Number = "9062184542"
-            Nearby_Police_Hospital_Latitude = "22.570257802949584"
-            Nearby_Police_Hospital_Longitude = "88.3573208336781"
-            Nearby_Police_Hospital_Zipcode = "700012"
+            Nearby_Police_Hospital_Number = ""
+            Nearby_Police_Hospital_Latitude = ""
+            Nearby_Police_Hospital_Longitude = ""
+            Nearby_Police_Hospital_Zipcode = ""
 
-            Nearby_Police_Patient_Number = "7439872575"
-            Nearby_Police_Patient_Latitude = "22.592230984825406"
-            Nearby_Police_Patient_Longitude = "88.32060692445842"
-            Nearby_Police_Patient_Zipcode = "711101"
+            Nearby_Police_Patient_Number = ""
+            Nearby_Police_Patient_Latitude = ""
+            Nearby_Police_Patient_Longitude = ""
+            Nearby_Police_Patient_Zipcode = ""
             #
             # # Send message to police station near to patient
             police_patientmessage = "Health Emergency!! 🚨 \nPleace clear the road for 🚑\n\nAmbulance No : *" + str(
