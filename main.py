@@ -118,6 +118,7 @@ def mybot():
                                                                                                    hospital_latitude,
                                                                                                    hospital_longitude)
 
+            # creating message for patient
             patientmsg = "Your Ambulance is on its way. 🚑\nAmbulance Service Name : *" + str(
                 Ambulancename) + "*\nAmbulance Phone Number : *" + str(
                 Ambulancephoneno) + "*\nAmbulance Reg. No : *" + str(
@@ -181,7 +182,10 @@ def mybot():
             responded = True
 
         if responded == False:
-            msg.body('Please try with something else keyword')
+            msg.body("Sorry I don't understand you!")
+            msg.body('Type sos for immediate ambulance service.')
+            msg.body('Then wait for the following instructions')
+            
 
         return str(resp)
     elif Sms_Status == 'delivered':
