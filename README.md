@@ -1,5 +1,5 @@
 # W-ambulance
-A Whatsapp Bot build by Team : LTFT ([Aritra](https://github.com/belelaritra),[Rounak](https://github.com/CoderRounak),[Mayukh](https://github.com/mayukh551), [Abesh](https://github.com/Abesh1903)) for Hackathon (Innovision-2021 by Department of CSE RCCIIT)\
+A Whatsapp Bot developed by Team : LTFT ([Aritra](https://github.com/belelaritra),[Rounak](https://github.com/CoderRounak),[Mayukh](https://github.com/mayukh551), [Abesh](https://github.com/Abesh1903)) for Hackathon (Innovision-2021 by Department of CSE RCCIIT)\
 
 ### Flow Chart
 <img src="https://github.com/belelaritra/W-ambulance/blob/main/Wambulance.png" width="700"/>
