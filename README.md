@@ -8,7 +8,7 @@ https://user-images.githubusercontent.com/82683890/131958110-6ca53042-2120-4dad-
 <img src="https://github.com/belelaritra/W-ambulance/blob/main/Wambulance.png" width="700"/>
 
 ## Inspiration : 
-According to NIEM almost 20 % of patients are died due to traffic delays, & in year 2016 only 1.4 lakh people died in road accident out of which almost 30% died due to late arrival of Ambulance. 
+According to NIEM almost 20 % of patients die due to traffic delays, & in year 2016 only 1.4 lakh people died in road accident out of which almost 30% died due to late arrival of Ambulance. 
 <br><br>So we team LTFT comes with this idea to build a **WhatsApp Bot** which will help a user to contact an Ambulance, Hospital & nearby Police Station in no time.
 
 
