@@ -1,5 +1,8 @@
-# W-ambulance-
+# W-ambulance
 A Whatsapp Bot build by Team : LTFT ([Aritra](https://github.com/belelaritra),[Rounak](https://github.com/CoderRounak),[Mayukh](https://github.com/mayukh551), [Abesh](https://github.com/Abesh1903)) for Hackathon (Innovision-2021 by Department of CSE RCCIIT)\
+
+### Flow Chart
+<img src="https://github.com/belelaritra/W-ambulance/blob/main/Wambulance.png" width="700"/>
 
 ## Inspiration : 
 According to NIEM almost 20 % of patients are died due to traffic delays, & in year 2016 only 1.4 lakh people died in road accident out of which almost 30% died due to late arrival of Ambulance. 
