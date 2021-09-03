@@ -1,9 +1,9 @@
 import json
 import requests
 
-APIKEY = "_____YOUR API KEY______"
+APIKEY = "____________YOUR API KEY_____________"
 
-
+# =============== Geocoding API
 def reverselocation(latitude, longitude):
     URL = "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + str(latitude) +","+ str(longitude) + "&key=" + str(
         APIKEY)
@@ -26,7 +26,7 @@ def reverselocation(latitude, longitude):
     #return Address, Street_Number, Road, Sublocality1, Sublocality2, District, State, Country, Zipcode
     return Address,Zipcode
 
-
+# =============== Places API
 def placedetails(latitude, longitude, radius):
     type = "hospital"
     nameexample = "hospital"
@@ -47,7 +47,7 @@ def placedetails(latitude, longitude, radius):
 
     return hospital_latitude, hospital_longitude, hospital_name, hospital_address, hospital_rating
 
-
+# =============== Distance Matrix API
 def distance2point(olatitude, olongitude, dlatitude, dlongitude):
     # ============= DISTANCE MATRIX API (DIST BETWEEN 2 API)
     url = "https://maps.googleapis.com/maps/api/distancematrix/json?origins=" + str(olatitude) + "," + str(
